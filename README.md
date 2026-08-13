@@ -1,104 +1,304 @@
-Portfolio personal — PFO1
+# Portfolio personal — PFO1
 
-                                                Descripción
+## Descripción
 
-Este proyecto corresponde a la PFO1 y consiste en el desarrollo de una landing page de portfolio personal utilizando HTML y CSS.
+Este proyecto corresponde a la **PFO1** y consiste en el desarrollo de una landing page de portfolio personal utilizando **HTML y CSS**.
 
-La página presenta mi perfil como desarrolladora web con enfoque frontend, mi formación, mis habilidades técnicas, algunos intereses personales y distintas formas de contacto.
+La página presenta mi perfil como desarrolladora web con enfoque frontend, mi formación, mis habilidades técnicas, mi experiencia actual dentro del área de Sistemas y algunos intereses personales vinculados a la creatividad, el diseño y la comunicación.
 
-                                            Tecnologías utilizadas
+El objetivo fue construir una landing responsive, semántica y visualmente coherente, aplicando los contenidos trabajados durante la materia.
 
-HTML5
+---
 
-CSS3
+## Tecnologías utilizadas
 
-Google Fonts
+* HTML5
+* CSS3
+* Google Fonts
+* Flexbox
+* CSS Grid
+* Media Queries
+* Variables CSS
+* Transiciones y animaciones
+* Git
+* GitHub
+* Vercel
 
-Flexbox
+---
 
-CSS Grid
+## URL del proyecto publicado
 
-Media Queries
-
-Git y GitHub
-
-    URL del proyecto en Vercel
+**Vercel:**
+https://portfolio-martina-chi.vercel.app
 
 portfolio-martina-chi.vercel.app
 
-                                                Decisiones de diseño
+**GitHub:**
 
-Para la identidad visual elegí combinar minimalismo contemporáneo con una influencia Art Déco más marcada.
+https://github.com/Martina-bistagnino/portfolio-martina.git
 
-El minimalismo aparece en la organización clara, el uso del espacio, la cantidad controlada de elementos y la jerarquía tipográfica. La influencia Art Déco se expresa mediante marcos, líneas finas, geometría, simetría y detalles dorados.
+---
 
-La paleta utiliza tonos crema, marrón, terracota, rosa y dorado suave. La intención fue lograr una estética cálida, elegante y profesional, evitando un estilo tecnológico genérico.
+## Perfil de GitHub
 
-Para la tipografía utilicé:
+**GitHub:**
+https://github.com/Martina-bistagnino
 
-Cormorant Garamond en títulos y elementos destacados.
+---
 
-Montserrat en textos, botones y navegación.
+## Decisiones de diseño
 
-También incorporé detalles geométricos, bordes finos, transiciones y animaciones suaves para reforzar la estética general sin sobrecargar la interfaz.
+Para la identidad visual elegí combinar **minimalismo contemporáneo con una influencia Art Déco**.
 
-La fotografía utilizada en la sección principal es una fotografía propia y no fue generada ni intervenida con inteligencia artificial.
+El minimalismo aparece principalmente en la organización clara del contenido, el uso del espacio, la cantidad controlada de elementos visuales y una jerarquía tipográfica definida.
 
-                                                Estructura y contenido
+La influencia Art Déco se expresa mediante:
 
-La landing incluye:
+* Marcos y líneas finas.
+* Formas geométricas.
+* Rombos y elementos simétricos.
+* Detalles dorados.
+* Tipografía serif en títulos.
+* Composición elegante y estructurada.
 
-Header con navegación.
+La paleta de colores utiliza tonos crema, marrón, terracota, rosa y dorado suave. La intención fue conseguir una estética cálida, elegante y profesional, evitando el estilo oscuro y tecnológico que suele aparecer en muchos portfolios de desarrollo.
 
-Presentación principal.
+---
 
-Sección "Sobre mí".
+## Tipografías
 
-Sección de habilidades.
+Se utilizaron dos tipografías de Google Fonts:
 
-Sección "Mi recorrido" con experiencia y formación.
+* **Cormorant Garamond:** utilizada principalmente en títulos y elementos destacados. Su estilo serif aporta elegancia y acompaña la inspiración Art Déco.
+* **Montserrat:** utilizada en textos, navegación, botones y formularios para mantener una lectura clara y moderna.
 
-Sección personal "Más allá del código".
+La combinación permite diferenciar visualmente los títulos del contenido general y generar una jerarquía tipográfica más marcada.
 
-Formulario de contacto.
+---
 
-Enlaces a GitHub, LinkedIn, Instagram y correo electrónico.
+## Maquetación con Flexbox y Grid
 
-Footer.
+Durante el desarrollo utilicé tanto **Flexbox** como **CSS Grid**, dependiendo de las necesidades de cada componente.
 
-El formulario de contacto es demostrativo y fue realizado sin servicios externos.
+**CSS Grid** fue utilizado principalmente para estructuras bidimensionales, como:
 
-                                                Estilos y variables 
-                                                Responsive Design
+* La sección principal.
+* Las tarjetas de habilidades.
+* La sección de intereses.
+* La sección de contacto.
+* El recorrido profesional y académico.
 
-El diseño fue pensado para adaptarse a distintos tamaños de pantalla mediante CSS Grid, Flexbox y media queries.
+**Flexbox** fue utilizado para elementos que necesitaban una distribución principalmente unidimensional, como:
 
-Se realizaron ajustes específicos para tablets y dispositivos móviles, reorganizando columnas, navegación, tarjetas y contenido para mantener la legibilidad y una buena experiencia de uso.
+* La barra de navegación.
+* Los botones.
+* Las etiquetas de tecnologías.
+* Algunos grupos de enlaces.
+* El footer.
 
-                                                Perfil técnico
+La combinación de ambas herramientas permitió mantener una estructura flexible, ordenada y adaptable a distintos tamaños de pantalla.
 
-Cuento con conocimientos intermedios/avanzados en HTML, CSS y JavaScript.
+---
 
-También tengo conocimientos básicos y en desarrollo de TypeScript, Angular, backend y MySQL, áreas que continúo profundizando durante mi formación.
+## Responsive Design
 
-                                                Uso de inteligencia artificial
+El sitio fue diseñado para adaptarse a computadoras, tablets y dispositivos móviles.
 
-Para el desarrollo de esta PFO1 utilicé ChatGPT Plus como herramienta de revisión.
+Para lograrlo utilicé:
+
+* Media Queries.
+* Unidades relativas.
+* `clamp()`.
+* `min()`.
+* Porcentajes.
+* `rem`.
+* `vw`.
+* Columnas flexibles con Grid.
+* Elementos reorganizados mediante Flexbox.
+
+En pantallas pequeñas las secciones que originalmente utilizan varias columnas pasan a una sola columna para mejorar la lectura y evitar el desplazamiento horizontal.
+
+---
+
+## Interactividad y animaciones
+
+La landing incluye distintos efectos visuales desarrollados únicamente con CSS.
+
+Se incorporaron:
+
+* Transiciones en botones.
+* Efectos hover en enlaces.
+* Efectos hover en tarjetas.
+* Animaciones de entrada en la presentación principal.
+* Animación de aparición de la fotografía.
+* Scroll suave entre secciones.
+
+Las animaciones fueron pensadas para acompañar la experiencia sin sobrecargar la interfaz.
+
+Además, se agregó soporte para:
+
+```css
+@media (prefers-reduced-motion: reduce)
+```
+
+Esto permite reducir o eliminar las animaciones cuando una persona tiene configurada esa preferencia de accesibilidad en su dispositivo.
+
+---
+
+## Accesibilidad y HTML semántico
+
+Se utilizaron etiquetas semánticas para estructurar correctamente el contenido:
+
+* `header`
+* `nav`
+* `main`
+* `section`
+* `article`
+* `footer`
+
+También se incorporaron:
+
+* Texto alternativo mediante `alt` en imágenes.
+* `aria-label` en elementos que necesitan una descripción adicional.
+* `label` vinculados correctamente a los campos del formulario.
+* Estados `focus-visible` para mejorar la navegación mediante teclado.
+* Jerarquía adecuada de títulos.
+
+Estas decisiones permiten mejorar la comprensión de la página tanto para usuarios como para tecnologías de asistencia.
+
+---
+
+## Estructura del proyecto
+
+```text
+portfolio-martina/
+│
+├── index.html
+├── README.md
+│
+├── css/
+│   └── styles.css
+│
+└── img/
+    └── Martina.png
+```
+
+---
+
+## Contenido de la landing
+
+La página incluye las siguientes secciones:
+
+* Navegación principal.
+* Presentación personal.
+* Sobre mí.
+* Habilidades.
+* Mi recorrido.
+* Más allá del código.
+* Contacto.
+* Enlaces a redes sociales.
+* Footer.
+
+La sección **Mi recorrido** permite mostrar mi experiencia actual dentro del área de Sistemas, mi formación académica y el aprendizaje complementario mediante cursos.
+
+La sección **Más allá del código** muestra algunos intereses personales relacionados con diseño, fotografía, comunicación, viajes, música y lectura.
+
+---
+
+## Formulario de contacto
+
+El formulario contiene:
+
+* Nombre.
+* Email.
+* Mensaje.
+
+Cada campo cuenta con su correspondiente etiqueta `label`.
+
+El formulario es demostrativo y fue desarrollado sin servicios externos ni backend, por lo que no realiza el envío real de información.
+
+---
+
+## Imagen utilizada
+
+La fotografía utilizada en la presentación principal es una **fotografía propia**.
+
+La imagen no fue generada ni modificada mediante inteligencia artificial.
+
+---
+
+## Perfil técnico
+
+Actualmente cuento con conocimientos **intermedios/avanzados en HTML, CSS y JavaScript**.
+
+También tengo conocimientos en:
+
+* TypeScript.
+* Git y GitHub.
+* MySQL.
+* Backend.
+* Soporte IT.
+* Infraestructura.
+
+Actualmente continúo profundizando mis conocimientos en **Angular y frameworks frontend**.
+
+---
+
+## Formación y experiencia
+
+Actualmente estudio una **Tecnicatura en Desarrollo de Software**.
+
+Además, realicé cursos relacionados con:
+
+* JavaScript.
+* MySQL.
+* Desarrollo web.
+
+En el ámbito laboral trabajo en el área de **Sistemas de Distribuidora Metropolitana**, donde realizo tareas vinculadas tanto al desarrollo como al soporte de infraestructura tecnológica de la empresa y sus sucursales.
+
+Mi objetivo profesional es continuar orientando mi perfil hacia el **desarrollo frontend**.
+
+---
+
+## Uso de inteligencia artificial
+
+Para realizar esta PFO1 utilicé **ChatGPT mediante el plan pago ChatGPT Plus**.
+
+Ya había utilizado previamente ChatGPT para realizar consultas relacionadas con programación, revisión de código, resolución de errores y dudas técnicas, por lo que contaba con experiencia previa utilizando la herramienta como apoyo durante procesos de desarrollo.
+
+En este proyecto utilicé ChatGPT principalmente como herramienta de **revisión**.
 
 La herramienta fue utilizada para:
 
-Revisar la organización general de la landing.
+* Revisar la organización general de la landing.
+* Revisar la estructura semántica del HTML.
+* Revisar estilos CSS.
+* Revisar el comportamiento responsive.
+* Detectar posibles mejoras de accesibilidad.
+* Revisar la legibilidad del contenido.
+* Revisar la redacción del README.
+* Analizar posibles mejoras de diseño.
 
-Revisar decisiones de estructura semántica.
+Las decisiones visuales, la elección de colores, la estética general, la información personal, la organización del contenido y las modificaciones finales fueron revisadas y adaptadas con criterio propio.
 
-Revisar estilos y comportamiento responsive.
+También revisé el código para comprender qué función cumplía cada sección y realicé ajustes propios antes de publicar la versión final.
 
-Detectar posibles mejoras de accesibilidad y legibilidad.
+No se utilizaron imágenes generadas ni modificadas mediante inteligencia artificial.
 
-Revisar la redacción del contenido y de este README.
+---
 
-Antes de este proyecto ya contaba con experiencia previa en HTML, CSS y JavaScript, además de conocimientos de Git/GitHub, MySQL y otras herramientas vinculadas al desarrollo web.
+## Publicación
 
-Las decisiones visuales, la selección de contenido, la información personal, la adaptación del código y la revisión final fueron realizadas con criterio propio.
+El proyecto fue versionado utilizando **Git y GitHub**.
 
-No se utilizaron imágenes generadas ni modificadas con inteligencia artificial.
+La landing fue publicada mediante **Vercel**, conectando el repositorio de GitHub con la plataforma.
+
+Esto permite que las nuevas versiones del proyecto puedan publicarse automáticamente al realizar nuevos `push` al repositorio.
+
+---
+
+## Autora
+
+**Martina Bistagnino**
+
+Desarrolladora Web | Enfoque Frontend
